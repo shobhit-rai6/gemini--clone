@@ -10,7 +10,7 @@ const{onSent,recentPrompt,showResult,loading,resultData,setInput,input}= useCont
   return (
     <div className="main">
       <div className="nav">
-        <p>Gyani AI</p>
+        <p>Gemini AI</p>
         <img src={assets.user_icon} ></img>
       </div>
       <div className='main-container'>
@@ -18,7 +18,7 @@ const{onSent,recentPrompt,showResult,loading,resultData,setInput,input}= useCont
 {!showResult
 ?<>
 <div className='greet'>
-          <p><span> Hello, Lone.</span></p>
+          <p><span> Hello, Dev.</span></p>
           <p>How can i help you today</p>
         </div>
         <div className='cards'>
